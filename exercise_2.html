@@ -13,25 +13,28 @@
 
 		// Then, convert the code below to use the new "triangle" function instead of repeating the
 		// equation three times.
-function doRtio (t1_c) {
-	Math.sqrt((t1_a * t1_a) + (t1_b * t1_b));
-}
+
+var x = 0;
+
+	function doRtio (a, b) {
+		return Math.sqrt((t1_a * t1_a) + (t1_b * t1_b));
+	}
 
 		var t1_a = 3;
 		var t1_b = 4;
-		var t1_c = return doRtio;
+		var t1_c = doRtio(t1_a, t1_b);
 
 		console.log(t1_a, t1_b, t1_c);
 
 		var t2_a = 5;
 		var t2_b = 18;
-		var t2_c = return doRtio;
+		var t2_c = doRtio(t2_a, t2_b);
 
 		console.log(t2_a, t2_b, t2_c);
 
 		var t3_a = 9;
 		var t3_b = 12;
-		var t3_c = return doRtio;
+		var t3_c = doRtio(t3_a, t3_b);
 
 		console.log(t3_a, t3_b, t3_c);
 
