@@ -9,7 +9,6 @@
 		var greeting;
 
 		function sayHello(name) {
-			//name is a parameter, but greeting is a global variable
 			console.log(greeting + name);
 		}
 
@@ -25,6 +24,13 @@
 
 		// TODO: rewrite sayHello so that it takes greeting as a parameter instead of using a
 		// global variable.
+		function sayHello(name) {
+		console.log(greeting + name);
+		}
+		greeting = "Here comes dat boi!";
+		sayHello("oh shit, whaddup?");
+
+
 
 		// Hint: calling it will look like sayHello("Hello, ", "Dave");
 		</script>
